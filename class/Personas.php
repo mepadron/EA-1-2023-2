@@ -17,3 +17,12 @@ class Personas
         echo "MIguel eduardo {$ape}  y tu vives en {$lugar}";
     }
 }
+
+class Trabajo extends Personas
+{
+
+    public function LugarTrabajo($direccion)
+    {
+        return $direccion;
+    }
+}

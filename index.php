@@ -8,6 +8,7 @@ include_once("class/Personas.php");
 
 
 
-$ejecutar = new Personas();
+$ejecutar = new Trabajo();
 
 $ejecutar->Hola(77, 'Gabriel', 'VILLA');
+echo $ejecutar->LugarTrabajo("<br>Area de sistemas de la UNERG");
